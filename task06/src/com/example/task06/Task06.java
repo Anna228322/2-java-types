@@ -5,13 +5,13 @@ public class Task06 {
     public static int solution(int x, int y) {
 
         int sum = x + y;
-        int co = 0;
+        int count = 0;
         sum = Math.abs(sum);
         while (sum > 0){
             sum /= 10;
-            co++;
+            count++;
         }
-        return co;
+        return count;
     }
 
     public static void main(String[] args) {
